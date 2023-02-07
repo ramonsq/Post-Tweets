@@ -2,7 +2,7 @@ import requests
 import json
 
 # Devuelve informacion del usuario que le meta
-url = "https://api.twitter.com/2/tweets/search/recent?query=ramonsmitsaky"
+url = "https://api.twitter.com/2/tweets/search/recent?query={your_tw_account}"
 
 payload={}
 headers = {
